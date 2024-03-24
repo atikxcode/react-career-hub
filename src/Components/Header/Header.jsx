@@ -1,9 +1,7 @@
 import { NavLink } from "react-router-dom";
 
-  import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
 
-  const notify = () => toast("Wow so easy!");
+
 const Header = () => {
   return (
     
@@ -34,10 +32,10 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a onClick={notify} className="bg-gradient-to-r from-[#7E90FE] to-[#9873FF] pt-[15px] pb-[15px] pr-[30px] pl-[30px] rounded-[8px] text-white text-[20px] font-extrabold">Star Applying</a>
+    <a className="bg-gradient-to-r from-[#7E90FE] to-[#9873FF] pt-[15px] pb-[15px] pr-[30px] pl-[30px] rounded-[8px] text-white text-[20px] font-extrabold">Star Applying</a>
   </div>
 </div>
-<ToastContainer />
+
     </div>
    
     
