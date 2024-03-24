@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 
 const Job = ({job}) => {
-  const {logo, job_title, company_name, location, salary, remote_or_onsite} = job;
+  const {logo, job_title, company_name, location, salary, remote_or_onsite, id} = job;
   return (
     <div className=" border-[1px] border-[#E8E8E8] rounded-lg">
      <div className="p-7">
@@ -27,7 +28,7 @@ const Job = ({job}) => {
           <span className="text-[#757575] text-xl font-semibold">Salary: {salary}</span>
         </p>
       </div>
-      <button className="bg-gradient-to-r from-[#7E90FE] to-[#9873FF] pt-[11px] pb-[11px] pr-[18px] pl-[18px] text-xl font-extrabold text-white rounded-lg">View Details</button>
+      <Link to={`/job/${id}`}><button className="bg-gradient-to-r from-[#7E90FE] to-[#9873FF] pt-[11px] pb-[11px] pr-[18px] pl-[18px] text-xl font-extrabold text-white rounded-lg">View Details</button></Link>
      </div>
      
     </div>
