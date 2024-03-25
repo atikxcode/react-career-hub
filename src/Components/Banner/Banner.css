@@ -3,3 +3,12 @@
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
 }
+
+.background-image{
+  background-image: url('../../assets/images/user.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border:none;
+
+  
+}

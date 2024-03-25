@@ -12,6 +12,7 @@ const Banner = () => {
 
       </div>
       </div>
+      
       <div>
         <img className="w-[550px] h-[500px] relative bottom-[-44px]" src="/src/assets/images/user.png" alt="" />
       </div>
